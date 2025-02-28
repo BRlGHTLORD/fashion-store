@@ -3,7 +3,7 @@ let currentPage = 1;
 const itemsPerPage = 20;
 
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("gaming_products.json")
+  fetch("fashion_products.json")
     .then((response) => response.json())
     .then((data) => {
       productsData = data;
